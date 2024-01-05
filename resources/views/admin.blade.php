@@ -14,7 +14,7 @@
       <div class="w-1/3 p-4">
         <img
           alt="Illustration"
-          class="w-full logo rounded-lg"
+          class="w-full rounded-lg"
           height="200"
           src="/icon.svg"
           width="200"
@@ -23,14 +23,14 @@
       <div class="w-2/3 p-4">
         <div class="flex justify-center gap-3">
           <a href="{{route("home")}}" class="bg-blue-700 text-white hover:bg-blue-800 cursor-pointer rounded-lg p-2 active:bg-blue-500">Alumno - CESA</a>
-          <a class="bg-blue-700 text-white hover:bg-blue-800 cursor-pointer rounded-lg p-2">Docente</a>
-          <a href="{{route("login/admin")}}" class="bg-blue-700 text-white hover:bg-blue-800 cursor-pointer rounded-lg p-2">Administrador</a>
+          <a class="bg-blue-700 text-white hover:bg-blue-800 cursor-pointer rounded-lg p-2 active:bg-blue-500">Docente</a>
+          <a href="{{route("login/admin")}}" class="bg-blue-700 text-white hover:bg-blue-800 cursor-pointer rounded-lg p-2 active:bg-blue-500">Administrador</a>
         </div>
         <div class="mt-8 border p-3">
-          <label class="block text-lg font-medium text-blue-700" for="controlNumber">
-            Número de control
+          <label class="block text-lg font-medium text-blue-700" for="email">
+            Correo electrónico
           </label>
-          <Input class="mt-2 mb-4 border-blue-300 p-2 w-full rounded-md" id="controlNumber" placeholder="19690395" type="text" />
+          <Input class="mt-2 mb-4 border-blue-300 p-2 w-full rounded-md" id="email" placeholder="19690395@tecavlles.mx" type="email" />
           <label class="block text-lg font-medium text-blue-700" for="password">
             Contraseña
           </label>
