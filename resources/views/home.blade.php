@@ -34,11 +34,11 @@
           <label class="block text-sm font-medium text-blue-700" for="controlNumber">
             Número de control
           </label>
-          <Input class="mt-1 mb-4 border-blue-300 p-2" id="controlNumber" placeholder="19690395" type="text" />
+          <Input class="mt-2 mb-4 border-blue-300 p-2 w-full rounded-md" id="controlNumber" placeholder="19690395" type="text" />
           <label class="block text-sm font-medium text-blue-700" for="password">
             Contraseña
           </label>
-          <Input class="mt-1 mb-4 border-blue-300 p-2" id="password" placeholder="••••••" type="password" />
+          <Input class="mt-2 mb-4 border-blue-300 p-2 w-full rounded-md" id="password" placeholder="••••••" type="password" />
           <Button class="w-full bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Iniciar sesión</Button>
         </div>
       </div>
