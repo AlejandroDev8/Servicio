@@ -1,4 +1,8 @@
 @vite('resources/css/app.css')
+<head>
+  <title>Servicio-App</title>
+  <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
+</head>
 <div class="w-full h-screen flex flex-col items-center justify-center bg-gray-100 dark:bg-gray-800">
   <div class="w-80 p-8 bg-white dark:bg-gray-900 rounded-lg shadow-md">
     <div class="flex justify-center mb-8">
@@ -31,7 +35,7 @@
       </Button>
     </form>
     <div class="mt-4 text-center">
-      <a class="text-sm underline ml-1 dark:text-gray-400" href="/">
+      <a class="text-sm underline ml-1 dark:text-gray-400" href="{{route('home')}}">
         Home
       </a>
     </div>
