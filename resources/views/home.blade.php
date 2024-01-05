@@ -14,18 +14,14 @@
       <div class="w-1/3 p-4">
         <img
           alt="Illustration"
-          class="w-full"
+          class="w-full logo rounded-lg"
           height="200"
           src="/icon.svg"
-          {{-- style={{
-            aspectRatio: "200/200",
-            objectFit: "cover",
-          }}
-          width="200" --}}
+          width="200"
         />
       </div>
       <div class="w-2/3 p-4">
-        <div class="flex justify-end space-x-2">
+        <div class="flex justify-center gap-3">
           <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Estudiantes</Button>
           <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Personal</Button>
           <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Aspirantes</Button>
