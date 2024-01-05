@@ -22,9 +22,9 @@
       </div>
       <div class="w-2/3 p-4">
         <div class="flex justify-center gap-3">
-          <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Estudiantes</Button>
-          <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Personal</Button>
-          <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Aspirantes</Button>
+          <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Alumno - CESA</Button>
+          <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Docente</Button>
+          <Button class="bg-blue-700 text-white hover:bg-blue-800 rounded-lg p-2">Administrador</Button>
         </div>
         <div class="mt-8">
           <label class="block text-sm font-medium text-blue-700" for="controlNumber">
